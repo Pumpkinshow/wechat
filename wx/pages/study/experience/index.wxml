@@ -1,0 +1,45 @@
+<view class="container">
+  <view class='wrap' wx:if="{{id==0}}">
+    <view class="title">{{nowObj.title}}</view>
+    <view class='author'>{{nowObj.author}}</view>
+    <view class='author'>{{nowObj.time}}</view>
+    <view class='detail'>
+      <text class='code'>
+  　　circleImg(ctx, img, x, y, r) {
+  　 　 　ctx.save();
+  　 　 　var d =2 * r;
+  　 　 　var cx = x + r;
+  　 　 　var cy = y + r;
+  　 　 　ctx.arc(cx, cy, r, 0, 2 * Math.PI);
+  　 　 　ctx.clip();
+  　 　 　ctx.drawImage(img, x, y, d, d);
+  　 　 　ctx.restore();
+  　 　}
+
+      </text>
+      <view class='msg' wx:for="{{nowObj.msg}}">{{item}}</view>
+    </view>
+  </view>
+  <view class='wrap' wx:if="{{id==1}}">
+    <view class="title">{{nowObj.title}}</view>
+    <view class='author'>{{nowObj.author}}</view>
+    <view class='author'>{{nowObj.time}}</view>
+    <view class='detail'>
+      <text class='code'>
+　　　wx.navigateToMiniProgram({
+　　　　appId: '',
+　　　　path: 'pages/index/index?id=123',
+　　　　extraData: {
+　　　　  foo: 'bar'
+　　　　},
+　　　　envVersion: 'develop',
+　　　　success(res) {
+　　　　  // 打开成功
+　　　　}
+　　　})
+
+      </text>
+      <view class='msg' wx:for="{{nowObj.msg}}">{{item}}</view>
+    </view>
+  </view>
+</view>

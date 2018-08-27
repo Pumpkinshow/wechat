@@ -1,0 +1,23 @@
+/* pages/my/song/index.wxss */
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+.page__bd{
+  text-align: center;
+}
+.body-view button{
+  width: 40%;
+  float:left;
+  margin-left: 7%;
+}
+.body-view::after{
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+.body-view,.section__title{
+  margin:0 48rpx;
+}

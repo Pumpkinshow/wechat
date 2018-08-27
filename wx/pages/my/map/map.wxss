@@ -1,0 +1,22 @@
+.container{
+  height: 100%;
+}
+.page-section{
+  height: 100%;
+}
+.buttons{
+  position: absolute;
+  z-index:1000;
+  bottom:40rpx;
+  right: 20rpx;
+  display:flex;
+}
+.buttons button{
+  height: 60rpx;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  margin-right: 20rpx;
+  padding:0 20rpx;
+  background: #44B549;
+  color:#fff;
+}

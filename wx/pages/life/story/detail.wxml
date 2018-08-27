@@ -1,0 +1,6 @@
+<!--pages/life/story/detail.wxml-->
+<view class='container'>
+  <view class='title'>过来我抱抱</view>
+  <view class='msg'>你陪着我的时候，我不曾羡慕过任何人。</view>
+  <image src='../images/story-1.jpeg'></image>
+</view>

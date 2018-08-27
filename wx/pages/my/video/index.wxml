@@ -1,0 +1,26 @@
+<!--pages/my/video/index.wxml-->
+
+<view class="page-body">
+  <view class="page-section tc">
+    <video wx:if="{{number==1}}" id="myVideo" src="https://flv3.bn.netease.com/videolib1/1808/16/pQPtI836G/HD/pQPtI836G-mobile.mp4" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <video wx:if="{{number==2}}" id="myVideo" src="https://flv3.bn.netease.com/videolib3/1807/26/YVFsP0007/SD/YVFsP0007-mobile.mp4" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <video wx:if="{{number==3}}" id="myVideo" src="https://flv3.bn.netease.com/videolib3/1807/02/nVhzB4198/SDs/nVhzB4198-mobile.mp4" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <view class="weui-cells">
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">弹幕内容</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input bindblur="bindInputBlur" class="weui-input" type="text" placeholder="在此处输入弹幕内容" />
+        </view>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button bindtap="bindSendDanmu" class="page-body-button" type="primary" formType="submit">发送弹幕</button>
+      <button bindtap="bindPlay" class="page-body-button" type="primary">播放</button>
+      <button bindtap="bindPause" class="page-body-button" type="primary">暂停</button>
+      <button bindtap="next" class="page-body-button" type="primary">下一集</button>
+      <button bindtap="last" class="page-body-button" type="primary">上一级</button>
+    </view>
+  </view>
+</view>

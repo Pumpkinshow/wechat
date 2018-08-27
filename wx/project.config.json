@@ -1,0 +1,111 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.3",
+	"appid": "wxf6e588cbd8e43ce6",
+	"projectname": "demo",
+	"isGameTourist": false,
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 10,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/my/index/index",
+					"pathName": "pages/my/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/my/map/map",
+					"pathName": "pages/my/map/map",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/study/index/index",
+					"pathName": "pages/study/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/life/index/index",
+					"pathName": "pages/life/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/life/bear/bear",
+					"pathName": "pages/life/bear/bear",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/my/video/index",
+					"pathName": "pages/my/video/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/my/song/index",
+					"pathName": "pages/my/song/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/my/idea/index",
+					"pathName": "pages/my/idea/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/study/detail/detail",
+					"pathName": "pages/study/detail/detail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/study/list/index",
+					"pathName": "pages/study/list/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/study/test/index",
+					"pathName": "pages/study/test/index"
+				}
+			]
+		}
+	}
+}

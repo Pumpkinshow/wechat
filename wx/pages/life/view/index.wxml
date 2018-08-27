@@ -1,0 +1,14 @@
+<!--pages/life/view/index.wxml-->
+<!--pages/life/story/detail.wxml-->
+<view class='container'>
+  <view class='title'>三清山</view>
+  <view class='msg'>巨蟒出山</view>
+  <image src='../images/11.jpg'></image>
+  <view class='msg'>春夏秋冬</view>
+  <image src='../images/22.jpg'></image>
+  <view class='msg'>迎客松</view>
+  <image src='../images/33.jpg'></image>
+  <view class='msg'>云雾缭绕</view>
+  <image src='../images/44.jpg'></image>
+</view>
+

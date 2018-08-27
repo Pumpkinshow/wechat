@@ -1,0 +1,55 @@
+/* pages/life/bear/bear.wxss */
+.container{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #222;
+}
+.star{
+  position: relative;
+  height: 70%;
+  width: 3000rpx;
+  animation:starmove 80s linear infinite;
+}
+@keyframes starmove{
+  0%{
+    left: 0;
+  }
+  100%{
+    left: -1500rpx;
+  }
+}
+.mountain{
+  position: absolute;
+  left: 0;
+  z-index: 99;
+  width: 4500rpx;
+  height: 300rpx;
+  bottom:0rpx;
+  animation:mountainmove 30s linear infinite;
+}
+@keyframes mountainmove{
+  0%{
+    left: 0;
+  }
+  100%{
+    left: -2250rpx;
+  }
+}
+.bear{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  z-index: 100;
+  width: 200rpx;
+  height: 100rpx;
+  transition: all 1s linear;
+}
+.bear-center{
+  left: 300rpx;
+}
+.bear image{
+  width: 100%;
+  height: 100%;
+}

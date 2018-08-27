@@ -1,0 +1,11 @@
+<view class="container">
+
+  <view class="title">{{nowObj.title}}</view>
+  <view class='author'>{{nowObj.author}}</view>
+  <view class='author'>{{nowObj.time}}</view>
+  <view class='detail'>
+    <view class='msg' wx:for="{{nowObj.msg}}">{{item}}</view>
+    <image bindtap='showBigImg' wx:if="{{!!nowObj.imageUrl}}" src="{{nowObj.imageUrl}}" class='image'></image>
+    <view class='demo' bindtap='demo'>示例</view>
+  </view>
+</view>

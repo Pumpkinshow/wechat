@@ -1,0 +1,31 @@
+/* pages/study/detail/detail.wxss */
+
+.container{
+  min-height: 100%;
+  background: #f1f1f1;
+  padding:0 32rpx 80rpx 32rpx;
+}
+.title{
+  display: block;
+  line-height: 80rpx;
+  text-align: center;
+  padding:40rpx;
+  font-weight: bold;
+}
+.author{
+  font-size: 32rpx;
+  color:#999;
+}
+.detail{
+  margin-top: 32rpx;
+}
+.detail image{
+  width: 100%;
+  min-height: 200rpx;
+  max-height: 400rpx;
+}
+.detail .msg{
+  margin-top: 32rpx;
+  font-size: 32rpx;
+  word-break: break-all;
+}

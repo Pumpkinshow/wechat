@@ -1,0 +1,18 @@
+<!--pages/my/idea/index.wxml-->
+
+<view class="container">
+<view class='textarea'>
+  <view class='title'>请提出您的宝贵意见</view>
+  <textarea placeholder="请输入" bindinput="input" maxlength="200"></textarea>
+  <view class="num">{{len}}/200</view>
+</view>
+
+<view class='btn' >
+  <button hover-class="hoverbtn" bindtap='submit'>提交</button>
+</view>
+
+<view class='operate'>
+  <button bindtap='add'>赞（{{addData}}）</button>
+  <button class='gray' bindtap='sub'>踩（{{subData}}）</button>
+</view>
+</view>

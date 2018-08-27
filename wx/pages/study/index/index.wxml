@@ -1,0 +1,74 @@
+<view class="container">
+  <swiper
+    indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+    interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+    <block wx:for="{{background}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}" bindtap='preview' data-id="{{index}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="list">
+    <view class='title'>热门问题</view>
+    <view class='content' bindtap="godetail" data-index="0">
+      <image src="../images/banner1.jpg"></image>
+      <view class='list-item'>
+        <view>小程序和APP的区别？</view>
+        <view>发布者：练庆楠</view>
+        <view>发布时间：2018-08-16 23:46</view>
+        <view><button>小程序</button><button>前端</button></view>
+      </view>
+    </view>
+    <view class='content' bindtap="godetail" data-index="1">
+      <image src="../images/banner2.jpg"></image>
+      <view class='list-item'>
+        <view>小程序和公众号的区别？</view>
+        <view>发布者：练庆楠</view>
+        <view>发布时间：2018-08-22 23:46</view>
+        <view><button>小程序</button><button>前端</button></view>
+      </view>
+    </view>
+  </view>
+  <view class="list">
+    <view class='title'>好房相关</view>
+    <view class='content' bindtap="goHaofang" data-index="0">
+      <image src="../images/banner3.jpg"></image>
+      <view class='list-item'>
+        <view>嵌入H5页面</view>
+        <view>发布者：练庆楠</view>
+        <view>发布时间：2018-08-22 21:00</view>
+        <view><button>小程序</button><button>好房</button></view>
+      </view>
+    </view>
+    <view class='content' bindtap="goHaofangList" data-index="0">
+      <image src="../images/banner6.jpg"></image>
+      <view class='list-item'>
+        <view>自定义组件list</view>
+        <view>发布者：练庆楠</view>
+        <view>发布时间：2018-08-22 23:00</view>
+        <view><button>小程序</button><button>好房</button></view>
+      </view>
+    </view>
+  </view>
+  <view class="list">
+    <view class='title'>经验分享</view>
+    <view class='content' bindtap="goExperience" data-index="0">
+      <image src="../images/banner4.jpg"></image>
+      <view class='list-item'>
+        <view>canvas绘制圆角头像</view>
+        <view>发布者：练庆楠</view>
+        <view>发布时间：2018-08-22 23:46</view>
+        <view><button>小程序</button><button>分享</button></view>
+      </view>
+    </view>
+    <view class='content' bindtap="goExperience" data-index="1">
+      <image src="../images/banner5.jpg"></image>
+      <view class='list-item'>
+        <view>小程序跳转小程序</view>
+        <view>发布者：练庆楠</view>
+        <view>发布时间：2018-08-21 20:00</view>
+        <view><button>小程序</button><button>分享</button></view>
+      </view>
+    </view>
+  </view>
+</view>

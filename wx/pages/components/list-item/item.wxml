@@ -1,0 +1,5 @@
+<!--pages/components/list-item/item.wxml-->
+<view>
+  <slot></slot>
+  <slot name="list-null"></slot>
+</view>

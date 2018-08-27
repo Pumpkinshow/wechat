@@ -1,0 +1,36 @@
+/* pages/study/experience/index.wxss */
+
+/* pages/study/detail/detail.wxss */
+
+.container{
+  min-height: 100%;
+  background: #f1f1f1;
+  padding:0 32rpx 0 32rpx;
+}
+.title{
+  display: block;
+  line-height: 80rpx;
+  text-align: center;
+  padding:40rpx;
+  font-weight: bold;
+}
+.author{
+  font-size: 32rpx;
+  color:#999;
+}
+.detail{
+  margin-top: 32rpx;
+  margin-bottom: 80rpx;
+}
+.detail .code{
+  display: block;
+  background: #333;
+  color:#fff;
+  line-height: 40rpx;
+  font-size: 28rpx;
+}
+.detail .msg{
+  margin-top: 32rpx;
+  font-size: 32rpx;
+  word-break: break-all;
+}

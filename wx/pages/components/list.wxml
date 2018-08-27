@@ -1,0 +1,18 @@
+<!--pages/components/list.wxml-->
+<listItem ajax-url="{{ajaxUrl}}" bind:pushdata="pushdata">
+  <view class="list-warp">
+    <view class="content" wx:for="{{list}}" wx:key="index">
+      <image src="{{item.picUrl}}"></image>
+      <view class='list-item' wx:if="item.altName">
+        <view>{{item.altName}}</view>
+        <view>{{item.city + item.regionShow + item.address}}</view>
+        <view>{{item.unitPrice + '  ' + item.area}}</view>
+        <view><button>{{item.salesStateName}}</button><button>好房</button></view>
+      </view>
+    </view>
+  </view>
+  <view class="more">加载更多</view>
+  <view slot="list-null">
+    <slot name="list-null"></slot>
+  </view>
+</listItem>

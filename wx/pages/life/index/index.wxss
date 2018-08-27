@@ -1,0 +1,49 @@
+page {
+  background-color: #F8F8F8;
+  height: 100%;
+}
+swiper-item{
+  background: #fff;
+}
+swiper-item image{
+  width:100%;
+  height: 100%;
+}
+.body{
+  margin: 50rpx 30rpx 0 30rpx;
+}
+.body .title{
+  margin-top: 20rpx;
+  font-size:36rpx;
+  color:#44B549;
+  font-weight:bold;
+  line-height:50rpx;
+}
+.wrap{
+  padding:20rpx 0;
+  border-bottom: 1rpx solid #e1e1e1;
+}
+.wrap::after{
+  content:"";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+.wrap .item{
+  display: block;
+  width: 230rpx;
+  text-align: center;
+  float:left;
+}
+.wrap .item image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.wrap .item text{
+  margin:0;
+  padding:0;
+  display: block;
+  font-size: 28rpx;
+  line-height: 28rpx;
+}

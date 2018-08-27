@@ -1,0 +1,10 @@
+<view class="container">
+
+  <view class="title">{{nowObj.title}}</view>
+  <view class='author'>{{nowObj.author}}</view>
+  <view class='author'>{{nowObj.time}}</view>
+  <view class='detail'>
+    <image wx:if="{{!!nowObj.imageUrl}}" src="{{nowObj.imageUrl}}" class='image'></image>
+    <view class='msg' wx:for="{{nowObj.msg}}">{{item}}</view>
+  </view>
+</view>

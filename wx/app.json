@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/life/index/index",
+    "pages/my/index/index",
+    "pages/my/map/map",
+    "pages/study/index/index",
+    "pages/life/bear/bear",
+    "pages/my/video/index",
+    "pages/my/song/index",
+    "pages/my/idea/index",
+    "pages/study/detail/detail",
+    "pages/study/experience/index",
+    "pages/study/haofang/index",
+    "pages/study/haofang/haofang",
+    "pages/life/story/detail",
+    "pages/life/view/index",
+    "pages/study/list/index",
+    "pages/study/test/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#44B549",
+    "navigationBarTitleText": "pumpkin小程序",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "selectedColor": "#44B549",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/study/index/index",
+        "text": "学习",
+        "iconPath": "/static/common/images/gray_study.png",
+        "selectedIconPath": "/static/common/images/green_study.png"
+      },
+      {
+        "pagePath": "pages/life/index/index",
+        "text": "生活",
+        "iconPath": "/static/common/images/gray_life.png",
+        "selectedIconPath": "/static/common/images/green_life.png"
+      },
+      {
+        "pagePath": "pages/my/index/index",
+        "text": "我的",
+        "iconPath": "/static/common/images/gray_my.png",
+        "selectedIconPath": "/static/common/images/green_my.png"
+      }
+    ]
+  }
+}

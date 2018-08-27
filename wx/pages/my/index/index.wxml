@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="userinfo">
+    <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo"><image class="userinfo-avatar" src="{{headImg}}" mode="cover"></image></button> 
+  </view>
+  <view class='tit-text' wx:if="{{!!name}}">Hi {{name}}</view>
+  <view class='tit-text'>You are most welcome here</view>
+  <view class="list">
+    <view bindtap="songT">推荐一首歌 <text class='iconfont icon-xiangyoujiantou'></text></view>
+    <view bindtap="videoT">推荐一个视屏 <text class='iconfont icon-xiangyoujiantou'></text></view>
+    <view bindtap="goHome">如何去我家 <text class='iconfont icon-xiangyoujiantou'></text></view>
+    <view bindtap="idea">欢迎提提出您的宝贵意见 <text class='iconfont icon-xiangyoujiantou'></text></view>
+  </view>
+</view>

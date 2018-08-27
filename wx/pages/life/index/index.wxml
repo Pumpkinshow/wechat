@@ -1,0 +1,58 @@
+<view class="container">
+  <swiper
+    indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+    interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <image src="../images/bear.png" bindtap='goBear'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="body">
+    <view class='title'>一张图一个故事</view>
+    <view class='wrap'>
+      <view class='item' bindtap='goStoryDetail' data-id="0">
+        <image src="../images/story-1.jpeg"></image>
+        <text>过来我抱抱</text>
+      </view>
+      <view class='item' bindtap='goStoryDetail' data-id="1">
+        <image src="../images/story-1.jpeg"></image>
+        <text>过来我抱抱</text>
+      </view>
+      <view class='item' bindtap='goStoryDetail' data-id="2">
+        <image src="../images/story-1.jpeg"></image>
+        <text>过来我抱抱</text>
+      </view>
+    </view>
+    <view class="title">一张图一个景点</view>
+    <view class='wrap'>
+      <view class='item' bindtap='goViewDetail' data-id="0">
+        <image src="../images/scenery-1.jpg"></image>
+        <text>三清山</text>
+      </view>
+      <view class='item' bindtap='goViewDetail' data-id="0">
+        <image src="../images/scenery-1.jpg"></image>
+        <text>三清山</text>
+      </view>
+      <view class='item' bindtap='goViewDetail' data-id="0">
+        <image src="../images/scenery-1.jpg"></image>
+        <text>三清山</text>
+      </view>
+    </view>
+    <view class="title">一张图一次旅行</view>
+    <view class='wrap'>
+      <view class='item' >
+        <image src="../images/travel-1.jpg"></image>
+        <text>美女沙滩</text>
+      </view>
+      <view class='item' >
+        <image src="../images/travel-1.jpg"></image>
+        <text>美女沙滩</text>
+      </view>
+      <view class='item' >
+        <image src="../images/travel-1.jpg"></image>
+        <text>美女沙滩</text>
+      </view>
+    </view>
+  </view>
+</view>
