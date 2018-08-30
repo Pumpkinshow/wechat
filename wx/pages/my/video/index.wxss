@@ -15,3 +15,9 @@ video{
 .page-body-button {
   margin-bottom: 30rpx;
 }
+.unsport{
+  color:#222;
+  display: block;
+  text-align: center;
+  margin: 120rpx;
+}

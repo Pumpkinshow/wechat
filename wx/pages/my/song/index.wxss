@@ -21,3 +21,10 @@
 .body-view,.section__title{
   margin:0 48rpx;
 }
+
+.unsport{
+  color:#222;
+  display: block;
+  text-align: center;
+  margin: 120rpx;
+}

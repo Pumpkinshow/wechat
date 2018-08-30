@@ -1,7 +1,8 @@
 <!--pages/my/video/index.wxml-->
 
 <view class="page-body">
-  <view class="page-section tc">
+<view class='unsport'>个人账号不支持视屏播放功能</view>
+  <!-- <view class="page-section tc">
     <video wx:if="{{number==1}}" id="myVideo" src="https://flv3.bn.netease.com/videolib1/1808/16/pQPtI836G/HD/pQPtI836G-mobile.mp4" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
     <video wx:if="{{number==2}}" id="myVideo" src="https://flv3.bn.netease.com/videolib3/1807/26/YVFsP0007/SD/YVFsP0007-mobile.mp4" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
     <video wx:if="{{number==3}}" id="myVideo" src="https://flv3.bn.netease.com/videolib3/1807/02/nVhzB4198/SDs/nVhzB4198-mobile.mp4" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
@@ -22,5 +23,5 @@
       <button bindtap="next" class="page-body-button" type="primary">下一集</button>
       <button bindtap="last" class="page-body-button" type="primary">上一级</button>
     </view>
-  </view>
+  </view> -->
 </view>

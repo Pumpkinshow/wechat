@@ -1,11 +1,9 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
+    "pages/study/index/index",
     "pages/life/index/index",
     "pages/my/index/index",
     "pages/my/map/map",
-    "pages/study/index/index",
     "pages/life/bear/bear",
     "pages/my/video/index",
     "pages/my/song/index",
